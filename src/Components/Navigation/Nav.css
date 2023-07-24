@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navcontainer{
+width: 100%;
+background-color: transparent;
+z-index: 100000;
+transition: 2.5s;
+background: rgba(255, 255, 255,0.5);
+
+}
+.back{
+    background: red
+}
+ #navLink{
+ text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+   }li:hover #navLink,li:hover .navline{
+color: green;
+visibility: visible;
+/* text-decoration:underline; */
+transform-origin: center;
+}  .navline{
+    /* width: 100%; */
+    height: 4px;
+    background-color: green;
+   position: relative;
+   /* bottom: 10px; */
+   transform: scaleX(1);
+   transform-origin:center;
+   transition: 0.5s;
+   visibility: hidden;
+}.active-link{
+    color: green;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}.navbar-brand{
+    width: 100px;
+}
+.navbar-brand img{
+    width: 100%;
+} 
+.button{
+ 
+    background-color:transparent;
+    color:black;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 2px;
+    background-color: transparent;
+    width: fit-content;
+}
+.bar1,.bar3{
+    width: 2rem;
+    height:5px;
+    background-color: black;
+    transition: 0.5s;
+}
+.bar2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    transition: 0.5s;
+}
+.span1{
+    height:5px;
+    width: 1rem;
+    background-color: black;
+}.span2{
+    height:5px;
+    width: 0.5rem;
+    background-color: black;
+}
+.bar11{
+    transition: 0.5s;
+    height:6px;
+    width: 2rem;
+    background-color: black;
+    transform: rotate(120deg);
+}
+.bar12{
+    transition: 0.5s;
+    display: none;
+}
+.bar13{
+    transition: 0.5s;
+    height:6px;
+    width: 2rem;
+    background-color: black;
+    transform: rotate(226deg);
+}

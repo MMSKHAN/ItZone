@@ -1,0 +1,221 @@
+.ServicesPart1{
+    background-image: url("../Asserts/services\ background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+/* transform: rotate(180deg); */
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+font-size: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}.Services_Part1{
+    font-size: 2rem;
+    width: 100%;
+    text-align: justify;
+    line-height: normal;
+}.Ser1btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}.Ser1btn:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }.Ser1btn a{
+    text-decoration: none;
+  }.ServicesWrapper{
+    /* padding: 2rem; */
+    width: fit-content;
+    background:rgba(255, 255, 255, 0.6);
+    box-shadow: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+width: 50%;  
+padding: 2rem;
+padding-left: 3rem;
+padding-right: 3rem;
+border-radius: 15px 80px
+}.ServicesPart2{
+    /* border-top-left-radius: 50%;
+  border-top-right-radius: 50%; */
+  background-color:  #262626;
+height: fit-content;
+text-align: center;
+padding-top: 4rem;
+padding-bottom: 2rem;
+
+}.ServicesPart1text,.Service_Part4text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ServicesPart1text h6{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    text-transform: uppercase;
+}.ServicesPart1text p{
+    height: 5px;
+    width: 30%;
+    background-color: green;
+}
+.card-body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #505050;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}.services-card_header{
+    width: 100%;
+    display: flex;
+    background-color: #3A3A3A;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+  
+}
+.ServicesPart2{ background-color: #3A3A3A}
+.ServicesTitle{
+    font-size: 2rem;
+    font-weight: 500;
+}.Services_Part4_content{
+    text-align: justify;
+}.Services_4btn{
+    color: green ;
+    text-decoration:none;
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    /* transform: translatex(1px); */
+    transition: 0.5s;
+}
+.Services_4btn:hover{
+    background-color:rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    }
+
+.Services_arrow{
+    font-size: 1.9rem;
+    color: #4CAF50;
+}.Services_4btn:hover .Services_arrow{
+color: black;
+}.Service_Part4{
+     background-color:  #231F20;
+     text-align: center;
+    width: 100%;
+  
+}.Service_Part4_img{
+    width: 100%;
+}.Service_Part4_img img{
+    width: 100%;
+    border: none;
+}.Service_Part4text h6{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+}.Service_Part4text p{
+    height: 5px;
+    width: 35%;
+    background-color: green;   
+}.ServicesPart5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.ServicesPart5 span{
+    height: 4px;
+    width: 30%;
+    position: relative;
+    bottom: 22px;
+    background-color:#4CAF50;
+}
+.leftside{
+    background-image: url("../Asserts/letsbuild.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-position-y: center;
+    background-origin: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}.webtext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.ServicesPart5img {
+    width: 100%;
+}.ServicesPart5img img {
+    width: 100%;
+}.dot{
+    font-size: 5rem;
+    color: #4CAF50;
+}
+.webtextchild{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chidpart5{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+@media screen and (max-width: 800px){
+.ServicesWrapper{
+    width: 100vw;
+}.ServicesPart1text h6{
+    font-size: 3rem;
+    padding-top:1rem ;
+}.ServicesPart5 p{
+    padding-top:1rem ;
+    font-size: 3rem;
+}.leftside{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+}

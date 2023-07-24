@@ -1,0 +1,134 @@
+
+.ContactWrapper{
+    background-image: url("../Asserts/background1.jpg");
+    background-attachment: fixed;
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: flex-start;
+font-size: 2.5rem;
+filter: brightness(0.5);
+
+}
+.Contact_text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%; 
+}
+
+.Contact_text_p{
+   text-align: justify;
+   font-size: 16px;
+   filter: brightness(10.5);
+   visibility: visible;
+width: 32%;}
+.card-body{
+background-color: white;
+}.mapwrapper{
+    border: 2px solid rgb(171, 210, 112);
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+}.txt-center{
+    /* text-align: center; */
+    width: 100%;
+    margin-bottom: 2rem;
+}.contect-head, .contect-bottom{
+    width: 100%;
+    text-align: left;
+    padding-left: 4rem;
+    margin-top: 2rem;
+
+}.icon_size{
+    font-size: 1.5rem;
+    color:green;
+    margin-right: 1rem;
+}.contect-head >p,.contect-bottom >p{
+    color: #252525;
+    font-size: 1.5;
+    font-weight: 600;
+}.contact3-container{
+    width: 100%;
+    /* height: 100vh; */
+    padding-bottom: 50px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}.send_button{
+    width: fit-content;
+    background-color: green;
+color: white;
+padding-left: 3rem;
+padding-right: 3rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+display: flex;
+flex-direction: row;
+gap: 0.5rem;
+justify-content: center;
+align-items: center;
+/* border: none; */
+border: 2px solid white;
+border-radius: 8px;
+margin-top: 2rem;
+}.send_button:hover{
+    background-color: red;
+}.telegram{
+    font-size: 1.5rem;
+}
+.row2,.row3{
+    margin-top: 2rem;
+  
+}.row4>p{
+    padding: 1rem;
+}
+input{
+    background-color: inherit;
+    border: none;
+width: 100%;
+}::placeholder{
+    color: white;
+}input::-moz-focus-outer{
+    border: none;
+}
+.line{
+
+   height: 2px;
+   background-color: white;
+   margin-top: 5px; 
+}.row1{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: space-between;
+}.name{
+    width: 50%;
+}.line2{
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+}
+form{
+    padding: 2rem;
+}@media screen and (max-width: 800px){
+    .Contact_text_p{
+        width: 100vw;
+        padding: 10px;
+    }.mapwrapper{
+        width: 80vw;
+        height: 50vh;
+    }
+}

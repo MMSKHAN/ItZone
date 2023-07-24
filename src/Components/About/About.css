@@ -1,0 +1,262 @@
+.aboutpart1{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: white;
+background-attachment: fixed;
+color: black;
+width: 100%;
+height: 100vh;
+justify-content: center;
+
+}.aboutpart1 p{
+    font-weight: 500;
+    font-size: 4rem;
+    text-transform:capitalize;
+    font-family: 'Bebas Neue', sans-serif;
+}.aboutpart1 button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}.card{
+    overflow: hidden;
+    height: fit-content;
+    width: fit-content;
+}.img_part3 img:hover{
+    transform: scale(1.5)
+}
+.card,.aboutcardimd{
+    width: 100%
+}.aboutcardimd img{
+   width: 100%;
+   border-radius: 2px;
+}.about2btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}#row{
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}.part2text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+    height:293px;
+    overflow-y: hidden;
+}.part2textchind{
+    background:	rgba(0,128,0,0.5);
+    margin-bottom: 0;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
+font-weight: normal;
+font-size:1rem;
+text-align: justify;
+
+}.card:hover  .part2textchind{
+    opacity: 1;
+    transform: translateY(-1px);
+
+}.card{
+    border: none;
+}.part2btn{
+    width: 100%;
+justify-content: center;
+display: flex;
+flex-direction: row;
+gap: 0px;
+margin-top: 2rem;
+}.part2btn input{
+    width: 3%;
+    height:3vh ;
+}
+.part2container{
+   background-color:  #333333;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color:white;
+    font-size: 6rem;
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+}.part2container .row p{
+    background-color: #4CAF50;
+    height: 5px;
+    width: 100%;
+}.AboutPart3{
+    width: 100%;
+    /* height: 110vh; */
+    background-color: #353839;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    
+}.card_part3{
+    display: flex;
+    flex-direction: column;
+}
+.img_part3{
+width: 100%;
+overflow: hidden;
+}.img_part3 img{
+    transition: 1s;
+    width: 100%;
+}
+.part3row{
+    width: 100%;
+}.btn_Part3{
+    background-color: #4CAF50;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    height: fit-content;
+    position: absolute;
+    top: 79%;
+}.part3_text{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}.part4container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Asserts/pexels-jonas-ferlin-1845269.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}.cardpart4{
+    background: rgba(255,255,255,0.5);
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 50%;
+}.cardpart4 h1{
+    color: #4CAF50;
+}
+.card4text{
+    text-align: justify;
+    font-family: 'PT Serif', serif;
+}.Ceo_Paragraoh{
+display: flex;
+flex-direction: column;
+gap: 1px;
+}
+.Ceo_line{
+    line-height: 1px;
+    width: 10%;
+    height: 5px;
+    background-color: #4CAF50;
+}.AboutPart5{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Asserts/succress.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+}.About5text{
+    background-color: rgba(0,128,0,0.5);
+    color: black;
+    width: 60%;
+    text-align: justify;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+font-size: 2rem;
+font-family: 'PT Serif', serif;
+/* font-weight: 2rem; */
+}.AboutPart5a{
+   padding-top: 0.5rem;
+   padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #9A2205;
+    width: fit-content;
+}.AboutPart5a a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}.About5text2{
+    font-size:1.5rem;
+}.part3_text :nth-child(2){
+    height: 5px;
+    width: 35%;
+    position: relative;
+    bottom: 1rem;
+    background-color: #4CAF50;
+}
+.overflow2{
+    overflow-x: scroll;
+    scroll-behavior: auto;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 800px){
+    .aboutpart1{
+        height: 50vh;
+    }
+    .aboutpart1 p{
+        font-size: 2rem;
+        text-align: justify;
+
+    }.part2container{
+        width: 100vw;
+    }.cardpart4{
+        width: 100vw;
+    }.part3_text{
+        font-size: 1.9rem;
+    }.About5text{
+        width: 100vw;
+    }.card{
+        width: 50%;
+        /* height: fit-content; */
+    }
+    .part2container{
+        height: 58%;
+    }
+    .aboutcardimd{
+        width: 50vw;
+    }
+}
