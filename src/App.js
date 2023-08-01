@@ -12,11 +12,10 @@ import Navigation from './Components/Navigation/Navigation'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 import Footer from './Components/Footer/Footer'
-import Cursor from './Components/Cursor/Cursor'
-// import Cursor from './Cursor/Cursor'
+import Admin from './Admin/Admin';
 function App() {
   return (<>
-    <Cursor/>
+    {/* <Cursor/> */}
     <BrowserRouter>
     <Navigation/>
 <div style={{ position:"relative", top: "150vh"}}>
@@ -28,10 +27,11 @@ function App() {
         <Route path='/Services' element={<Services/>} />
         <Route path="/Blogs" element={<Blogs />}/>
         <Route path="/Contact" element={<Contact/>} />
+        <Route path="/Admin" element={<Admin/>} />
         <Route path="*" element={<Home/>} />
       
     </Routes>
-        <Cursor/>
+        {/* <Cursor/> */}
     <Footer/>
    </BrowserRouter>
   </> )
