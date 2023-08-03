@@ -10,7 +10,7 @@ width: 100%;
 background-color: transparent;
 z-index: 100000;
 transition: 2.5s;
-background: rgba(255, 255, 255,0.5);
+/* background: rgba(255, 255, 255,0.5); */
 
 }
 .back{
@@ -18,7 +18,7 @@ background: rgba(255, 255, 255,0.5);
 }
  #navLink{
  text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 700;
     font-size: 17px;
    }li:hover #navLink,li:hover .navline{
