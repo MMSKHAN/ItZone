@@ -10,7 +10,7 @@ import Contact from './Components/Contact/Contact'
 import Navigation from './Components/Navigation/Navigation'
 // import '../node_modules/bootstrap/js/src'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "./App.css"
+//import "./App.css"
 import Footer from './Components/Footer/Footer'
 import Admin from './Admin/Admin';
 function App() {
